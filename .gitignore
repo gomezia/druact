@@ -1,0 +1,21 @@
+# OS stuff
+# --------
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ---------
+# IDE stuff
+# ---------
+
+# ignore Eclipse files
+/.settings
+/.buildpath
+/.project
+
+# ignore Sublime Text 2 files
+/*.sublime-project
+/*.sublime-workspace
+/sftp-config.json
+/node_modules
