@@ -18,6 +18,7 @@ export default class LeftMenu extends React.Component {
       <div>
         <Paper style={styles.paperStyle}>
           <MenuItem href='./#/blog' onTouchTap={this.handleClose} leftIcon={<FontIcon className="fa fa-list-alt" />}>View content</MenuItem>
+          <MenuItem href='./#/admin-content' onTouchTap={this.handleClose} leftIcon={<FontIcon className="fa fa-plus-square" />}>Administer content</MenuItem>
           <MenuItem href='./#/' onTouchTap={this.handleClose} leftIcon={<FontIcon className="fa fa-plus-square" />}>Add new content</MenuItem>
         </Paper>
       </div>

@@ -8,6 +8,7 @@ import Header from './components/header.jsx';
 import AddContent from './components/addContent.jsx';
 import Blog from './components/blog.jsx';
 import LeftMenu from './components/mini_components/menu/leftmenu.jsx';
+import AdminContentPage from './components/admin-content.jsx';
 
 
 injectTapEventPlugin();
@@ -39,6 +40,9 @@ ReactDOM.render(
 	 <Router>
 	  	<Route exact path="/blog" component={Blog} />
 	 </Router>
+     <Router>
+      <Route exact path="/admin-content" component={AdminContentPage} />
+   </Router>
  </div>,
   document.getElementById('container')
 );

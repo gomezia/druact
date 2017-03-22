@@ -6,7 +6,7 @@ import ListNodes from './mini_components/body/listNodes.jsx';
 import LeftMenu from './mini_components/menu/leftmenu.jsx';
 
 const url = 'http://vps272180.ovh.net/drupal/web/api/articles';
-//const url = '/content.json';
+{/*const url = '/content.json';*/}
 
 export default class Blog extends React.Component {
   constructor(){
