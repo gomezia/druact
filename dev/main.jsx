@@ -9,6 +9,7 @@ import AddContent from './components/addContent.jsx';
 import Blog from './components/blog.jsx';
 import LeftMenu from './components/mini_components/menu/leftmenu.jsx';
 import AdminContentPage from './components/admin-content.jsx';
+import Weather from './components/weather.jsx';
 
 
 injectTapEventPlugin();
@@ -21,6 +22,7 @@ const App = () => (
         <Row>
           <Col xs={3} >
             <LeftMenu />
+            <Weather />
           </Col>
           <Col xs={9} >
             <AddContent />
